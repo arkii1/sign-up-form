@@ -1,0 +1,33 @@
+:root {
+    font-size: 14px;
+    --c-white: 255, 255, 255;
+    --c-black: 0, 0, 0;
+    --c-green: 89, 109, 72;
+    --c-grey-1: 247, 249, 252;
+    --c-grey-2: 229, 231, 235;
+    --c-blue: 0, 0, 255;
+    --a-odin-logo: 0.4;
+}
+
+body {
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('./font/Norse-Bold.otf')
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+input {
+    width: 15rem;
+    height: 1.5rem;
+}
